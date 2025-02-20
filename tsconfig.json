@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES6",
+    "rootDir": "./",  // Allows TypeScript to resolve modules across subdirectories
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

@@ -1,0 +1,49 @@
+# Ignore Node.js modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled JavaScript files
+dist/
+build/
+out/
+*.js
+*.js.map
+*.d.ts
+*.d.ts.map
+
+# Ignore TypeScript cache and logs
+*.log
+*.tsbuildinfo
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Jest test coverage
+coverage/
+
+# Ignore lockfiles (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore compiled binaries (if any)
+*.exe
+*.out
+*.app
