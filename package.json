@@ -7,6 +7,8 @@
   "scripts": {
     "one": "ts-node 1/problem.ts",
     "test-one": "npx jest 1",
+    "two": "ts-node 2/problem.ts",
+    "test-two": "npx jest 2",
     "test-all": "npx jest"
   }
 }

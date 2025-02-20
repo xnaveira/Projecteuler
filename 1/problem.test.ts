@@ -1,4 +1,4 @@
-import { isMultipleOf } from "./problem"; // Adjust the path based on where your function is defined
+import { isMultipleOf } from "../common/common"; // Adjust the path based on where your function is defined
 
 describe("isMultipleOf function", () => {
     test("returns true for multiples", () => {

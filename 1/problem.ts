@@ -1,6 +1,4 @@
-export function isMultipleOf(x: number, y: number): boolean {
-    return x % y === 0;
-}
+import { isMultipleOf } from "../common/common";
 
 let accumulate = 0;
 for (let j = 1; j < 1000; j++) {
