@@ -2,13 +2,18 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
-    "ts-jest": "^29.2.5"
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   },
   "scripts": {
-    "one": "ts-node 1/problem.ts",
+    "one": "npx ts-node 1/problem.ts",
     "test-one": "npx jest 1",
-    "two": "ts-node 2/problem.ts",
+    "two": "npx ts-node 2/problem.ts",
     "test-two": "npx jest 2",
-    "test-all": "npx jest"
+    "three": "npx ts-node 3/problem.ts",
+    "test-three": "npx jest 3",
+    "test-all": "npx jest",
+    "test-common": "npx jest common"
   }
 }
